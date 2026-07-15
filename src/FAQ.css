@@ -3,13 +3,13 @@
 ========================== */
 
 .faq{
-    max-width:1200px;
-    margin:120px auto;
+    max-width:1100px;
+    margin:90px auto;
     padding:0 20px;
 
     display:flex;
     justify-content:space-between;
-    gap:70px;
+    gap:50px;
     align-items:flex-start;
 }
 
@@ -21,64 +21,68 @@
 
 .faq-tag{
     display:inline-block;
-    padding:10px 20px;
+    padding:8px 18px;
     border-radius:30px;
     background:#e8faf7;
     color:#18a48b;
-    font-size:14px;
+    font-size:13px;
     font-weight:600;
-    margin-bottom:30px;
+    margin-bottom:22px;
 }
 
 .faq-left h2{
-    font-size:64px;
-    line-height:1.05;
-    font-weight:800;
+    font-size:48px;
+    line-height:1.1;
+    font-weight:700;
     color:#111;
-    margin-bottom:25px;
+    margin-bottom:18px;
 }
 
 .faq-left h2 span{
     display:block;
     color:#18a48b;
-    font-size:58px;
+    font-size:44px;
     font-family:Georgia, serif;
     font-style:italic;
     font-weight:500;
 }
 
 .faq-left p{
-    font-size:20px;
+    font-size:16px;
     color:#666;
-    line-height:1.8;
-    margin:30px 0;
+    line-height:1.7;
+    margin:20px 0 30px;
 }
 
-.expand{
-    color:#18a48b;
-    font-size:20px;
+/* Expand Button */
+
+.expand-btn{
+    padding:12px 24px;
+    border:none;
+    border-radius:30px;
+    background:#18a48b;
+    color:#fff;
+    font-size:14px;
     font-weight:600;
     cursor:pointer;
     transition:.3s;
 }
 
-.expand:hover{
-    color:#0f8b74;
+.expand-btn:hover{
+    background:#0f8b74;
 }
 
 /* RIGHT */
 
 .faq-right{
-    flex:1.3;
+    flex:1.2;
 }
 
 .faq-item{
     display:flex;
     justify-content:space-between;
     align-items:center;
-
-    padding:28px 0;
-
+    padding:20px 0;
     border-top:1px solid #ececec;
 }
 
@@ -87,18 +91,18 @@
 }
 
 .faq-item h3{
-    font-size:30px;
+    font-size:22px;
     font-weight:600;
     color:#111;
-    max-width:650px;
-    line-height:1.4;
+    max-width:500px;
+    line-height:1.5;
 }
 
 /* PLUS BUTTON */
 
 .plus-btn{
-    width:52px;
-    height:52px;
+    width:42px;
+    height:42px;
 
     border:1px solid #dcdcdc;
     border-radius:50%;
@@ -107,12 +111,11 @@
     justify-content:center;
     align-items:center;
 
-    font-size:28px;
-    font-weight:400;
+    background:#fff;
     color:#18a48b;
 
+    font-size:16px;
     cursor:pointer;
-
     transition:.3s;
 }
 
@@ -131,7 +134,7 @@
 .faq{
 
     flex-direction:column;
-    gap:60px;
+    gap:45px;
 
 }
 
@@ -150,20 +153,20 @@
 
 .faq-left h2{
 
-    font-size:54px;
+    font-size:40px;
 
 }
 
 .faq-left h2 span{
 
-    font-size:48px;
+    font-size:36px;
 
 }
 
 .faq-left p{
 
-    max-width:600px;
-    margin:25px auto;
+    max-width:550px;
+    margin:20px auto;
 
 }
 
@@ -173,52 +176,53 @@
 
 .faq{
 
-    margin:80px auto;
+    margin:70px auto;
 
 }
 
 .faq-left h2{
 
-    font-size:42px;
+    font-size:34px;
 
 }
 
 .faq-left h2 span{
 
-    font-size:38px;
+    font-size:30px;
 
 }
 
 .faq-left p{
 
-    font-size:17px;
+    font-size:15px;
 
 }
 
 .faq-item{
 
-    padding:22px 0;
+    padding:18px 0;
 
 }
 
 .faq-item h3{
 
-    font-size:22px;
-    max-width:250px;
+    font-size:18px;
+    max-width:230px;
 
 }
 
 .plus-btn{
 
-    width:44px;
-    height:44px;
-    font-size:22px;
+    width:38px;
+    height:38px;
+    font-size:14px;
 
 }
 
-.expand{
+.expand-btn{
 
-    font-size:18px;
+    padding:10px 20px;
+    font-size:13px;
 
 }
 
