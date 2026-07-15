@@ -1,0 +1,64 @@
+.pricing{
+    padding:100px 80px;
+    text-align:center;
+}
+
+.pricing-tag{
+    color:#169b82;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.pricing h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.pricing-text{
+    color:#666;
+    margin-bottom:60px;
+}
+
+.pricing-cards{
+    display:flex;
+    gap:30px;
+}
+
+.price-card{
+    flex:1;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.price-card h1{
+    font-size:55px;
+    color:#169b82;
+    margin:20px 0;
+}
+
+.price-card ul{
+    display:block;
+    list-style:none;
+    margin:30px 0;
+    text-align:left;
+}
+
+.price-card li{
+    margin-bottom:15px;
+}
+
+.price-card button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#169b82;
+    color:white;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.active{
+    transform:scale(1.05);
+}

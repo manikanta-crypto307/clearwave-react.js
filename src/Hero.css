@@ -1,0 +1,409 @@
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    max-width:1200px;
+    margin:80px auto;
+    padding:0 20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+}
+
+/* LEFT */
+
+.hero-left{
+    flex:1;
+}
+
+.hero-tag{
+    display:inline-block;
+    padding:10px 22px;
+    border-radius:30px;
+    background:#eafaf7;
+    color:#0b8b77;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:28px;
+}
+
+.hero-left h1{
+    font-size:72px;
+    line-height:1.05;
+    color:#111;
+    margin-bottom:25px;
+    font-weight:800;
+}
+
+.hero-left h1 span{
+    display:block;
+}
+
+.hero-left p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+    max-width:520px;
+    margin-bottom:40px;
+}
+
+/* BUTTONS */
+
+.hero-buttons{
+    display:flex;
+    gap:18px;
+}
+
+.start-btn{
+    background:#19a58c;
+    color:white;
+    border:none;
+    padding:18px 34px;
+    border-radius:40px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.start-btn:hover{
+    transform:translateY(-4px);
+}
+
+.demo-btn{
+    background:white;
+    border:2px solid #ddd;
+    padding:18px 34px;
+    border-radius:40px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.demo-btn:hover{
+    border-color:#19a58c;
+    color:#19a58c;
+}
+
+/* RIGHT */
+
+.hero-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+/* FLOAT CARD */
+
+.floating-card{
+    position:absolute;
+    top:-20px;
+    right:20px;
+
+    background:#1aa58d;
+    color:white;
+
+    width:140px;
+    padding:18px;
+
+    border-radius:18px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+    z-index:10;
+}
+
+.floating-card h2{
+    font-size:34px;
+    margin-bottom:6px;
+}
+
+.floating-card p{
+    font-size:15px;
+    opacity:.9;
+}
+/* ==========================
+   DASHBOARD
+========================== */
+
+.dashboard{
+    width:500px;
+    background:#ffffff;
+    border-radius:30px;
+    padding:30px;
+
+    box-shadow:
+        0 30px 60px rgba(0,0,0,.08),
+        0 10px 20px rgba(0,0,0,.04);
+
+    transition:.35s;
+}
+
+.dashboard:hover{
+    transform:translateY(-8px);
+}
+
+.dashboard-title{
+    font-size:18px;
+    font-weight:600;
+    color:#555;
+    margin-bottom:25px;
+}
+
+/* ==========================
+   CHART
+========================== */
+
+.chart{
+
+    height:210px;
+
+    display:flex;
+
+    align-items:flex-end;
+
+    justify-content:center;
+
+    gap:18px;
+
+    margin-bottom:35px;
+
+}
+
+.bar{
+
+    width:32px;
+
+    background:#1aa58d;
+
+    border-radius:18px 18px 0 0;
+
+    transition:.3s;
+
+}
+
+.bar:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.b1{
+    height:70px;
+    background:#d7f4ee;
+}
+
+.b2{
+    height:120px;
+    background:#bceee4;
+}
+
+.b3{
+    height:95px;
+    background:#27b39b;
+}
+
+.b4{
+    height:165px;
+    background:#118b75;
+}
+
+.b5{
+    height:135px;
+    background:#27b39b;
+}
+
+/* ==========================
+   STATS
+========================== */
+
+.dashboard-stats{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:20px;
+
+}
+
+.dashboard-stats div{
+
+    flex:1;
+
+    background:#fafafa;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+}
+
+.dashboard-stats h3{
+
+    font-size:28px;
+
+    color:#111;
+
+    margin-bottom:8px;
+
+}
+
+.dashboard-stats span{
+
+    color:#777;
+
+    font-size:15px;
+
+}
+
+/* ==========================
+   GLOW
+========================== */
+
+.hero-right::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:420px;
+
+    height:420px;
+
+    background:#18a48b;
+
+    opacity:.08;
+
+    filter:blur(90px);
+
+    border-radius:50%;
+
+    z-index:-1;
+
+}
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:992px){
+
+.hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:60px;
+
+}
+
+.hero-left p{
+
+    margin:0 auto 35px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.dashboard{
+
+    width:100%;
+
+}
+
+.floating-card{
+
+    right:10px;
+    top:-10px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+    margin:50px auto;
+
+}
+
+.hero-left h1{
+
+    font-size:48px;
+
+}
+
+.hero-tag{
+
+    font-size:13px;
+
+}
+
+.hero-left p{
+
+    font-size:16px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.start-btn,
+.demo-btn{
+
+    width:220px;
+
+}
+
+.dashboard{
+
+    padding:20px;
+
+}
+
+.chart{
+
+    height:170px;
+
+    gap:12px;
+
+}
+
+.bar{
+
+    width:24px;
+
+}
+
+.dashboard-stats{
+
+    flex-direction:column;
+
+}
+
+.floating-card{
+
+    display:none;
+
+}
+
+}
